@@ -1,4 +1,4 @@
-# Ecommerce Upgraded (Frontend-only)
+# Ecommerce
 
 Features:
 - React Router (PDP, Wishlist, Cart)
@@ -14,4 +14,4 @@ npm install
 npm run dev
 ```
 
-This is a frontend-only demo.
+
