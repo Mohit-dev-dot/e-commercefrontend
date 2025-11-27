@@ -1,6 +1,7 @@
 import bag from "../assets/backpack.jpg";
 import shoes from "../assets/sneakers.jpg";     // shoes = sneakers
 import tshirt from "../assets/tshirt.jpg";
+import headphones from "../assets/headphones.jpg";
 
 
 export const products = [
@@ -28,4 +29,15 @@ export const products = [
     rating: 4.3,
     img: tshirt,
   },
+  {
+    id: 4,
+    name: "Wireless Headphones",
+    category: "Electronics",
+    price: 129.99,
+    rating: 4.6,
+    img: headphones,
+    description: "Noise-cancelling over-ear headphones with 20h battery.",
+    stock: 8,
+    sku: "HPH-001"
+  }
 ];
