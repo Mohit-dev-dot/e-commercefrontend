@@ -1,1 +1,31 @@
-export const PRODUCTS = [{"id": "p1", "name": "Minimalist Backpack", "category": "Bags", "price": 49.99, "rating": 4.5, "img": "/src/assets/backpack.jpg", "description": "A clean, everyday backpack with roomy compartments and padded straps."}, {"id": "p2", "name": "Classic White Sneakers", "category": "Shoes", "price": 69.99, "rating": 4.7, "img": "/src/assets/sneakers.jpg", "description": "Comfortable canvas sneakers with durable rubber sole."}, {"id": "p3", "name": "Organic Cotton T-Shirt", "category": "Clothing", "price": 19.99, "rating": 4.3, "img": "/src/assets/tshirt.jpg", "description": "Soft organic cotton t-shirt, breathable and comfortable for everyday wear."}, {"id": "p4", "name": "Wireless Headphones", "category": "Electronics", "price": 129.99, "rating": 4.6, "img": "/src/assets/headphones.jpg", "description": "Over-ear wireless headphones with long battery life and clear sound."}];
+import bag from "../assets/backpack.jpg";
+import shoes from "../assets/sneakers.jpg";     // shoes = sneakers
+import tshirt from "../assets/tshirt.jpg";
+
+
+export const products = [
+  {
+    id: 1,
+    name: "Minimalist Backpack",
+    category: "Bags",
+    price: 49.99,
+    rating: 4.5,
+    img: bag,
+  },
+  {
+    id: 2,
+    name: "Classic White Sneakers",
+    category: "Shoes",
+    price: 69.99,
+    rating: 4.7,
+    img: shoes,
+  },
+  {
+    id: 3,
+    name: "Organic Cotton T-Shirt",
+    category: "Clothing",
+    price: 19.99,
+    rating: 4.3,
+    img: tshirt,
+  },
+];

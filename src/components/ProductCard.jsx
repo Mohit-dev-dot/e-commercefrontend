@@ -6,6 +6,8 @@ import toast from 'react-hot-toast';
 import { motion } from 'framer-motion';
 import QuickViewModal from './QuickViewModal';
 
+
+
 export default function ProductCard({p}) {
   const { dispatch } = useContext(CartContext);
   const { dispatch: wdispatch, items } = useContext(WishlistContext);
