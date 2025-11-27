@@ -9,7 +9,7 @@ export default function Home(){
   const [query,setQuery]=useState('');
   const [category,setCategory]=useState('All');
   const [sort,setSort]=useState('');
-  const [priceRange,setPriceRange]=useState([200,0]);
+  const [priceRange,setPriceRange]=useState([0,2000]);
   const [rating,setRating]=useState(0);
   const [loading,setLoading]=useState(false);
 
